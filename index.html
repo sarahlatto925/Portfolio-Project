@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+       <title> Sarah's Personal Website</title>
+       <meta charset = 'utf-8'>
+       <link rel='stylesheet' type='text/css' href ='css/html5reset.css'>
+       <link rel='stylesheet' type='text/css' href='css/style.css'>
+    </head>
+    <body>
+        <header>
+            <img src='images/logo.png' alt='logo' id='logo'>
+            <nav>
+                <ul class = 'nav-bar'>
+                    <li class = 'nav'><a href='index.html'>All About Me</a></li>
+                    <li class = 'nav'><a href='movies.html'>Movie Page</a></li>
+                    <li class = 'nav'><a href='foods.html'>Food Page</a></li>
+                    <li class = 'nav'><a href='music.html'>Music Page</a></li>
+                </ul>
+            </nav>
+            <a class = "skip" href='#skip'>Skip To Main Content</a>
+        </header>
+        <main class = "about" id='skip' tabindex="0">
+            <div class = 'text-section'>
+                <h1> All About Sarah Latto</h1>
+            </div>
+
+            <div class = 'img1'> </div>
+
+            <div class = 'text-section'>
+                <h1>Welcome to my page! My name is Sarah Latto and I am a junior at the Univeristy of Michigan.</h1>
+            </div>
+
+            <div class = 'img2'> </div>
+
+            <div class='text-section'>
+                <h1>I am 20 years old. I love my two dogs, Cooper and Tessa.</h1>
+            </div>
+
+            <div class = 'img3'> </div>
+
+            <div class ='text-section'>
+                <h1>I love to travel... I was very excited to go abroad next semester, but with everything going on in the world right now, I have decided to postpone this until my senior year!</h1>
+            </div>
+
+            <div class = 'img4'> </div>
+            <div class='contact-form'>
+                <form action="https://formspree.io/f/xqkgbrzl" method="POST">
+                    <fieldset>
+                        <label for='firstname'>First name:</label><br>
+                        <input type='text' id='firstname' name='firstname' required><br>
+                        <label for='lastname'>Last name:</label><br>
+                        <input type='text' id='lastname' name='lastname' required><br>
+                        <label for='email'>Email:</label><br>
+                        <input type='text' id='email' name='email' required><br>
+                        <label for='feeback'>Please include any feedback you have about my webpage:</label><br>
+                        <textarea name='feedback' rows='20' cols ='20' id='feedback' required></textarea><br>
+                        <br>
+                        <input type='submit' value='Contact Me' id='submit'>
+                    </fieldset>
+                </form>
+            </div>
+
+        </main>
+        <footer>
+            <h1> Sarah Latto, School of Information - Portfolio Project</h1>
+        </footer>
+    </body>
+</html>
